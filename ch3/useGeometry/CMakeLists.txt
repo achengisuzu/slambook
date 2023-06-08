@@ -1,0 +1,6 @@
+cmake_minimum_required( VERSION 2.8.12 )
+project( GEOMETRY )
+add_executable( GEOMETRY useGeometry.cpp )
+include_directories( "/usr/include/eigen3" )
+add_executable( coo coordinateTransform.cpp )
+include_directories( "/usr/include/eigen3" )
