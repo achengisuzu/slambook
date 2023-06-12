@@ -1,10 +1,9 @@
 CMakeFiles/visualize.dir/plotTrajectory.cpp.o: \
  /home/angelhyc/slambook2/ch3/examples/plotTrajectory.cpp \
- /usr/include/stdc-predef.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/pangolin.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/platform.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/assert.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/format_string.h \
+ /usr/include/stdc-predef.h /usr/local/include/pangolin/pangolin.h \
+ /usr/local/include/pangolin/platform.h \
+ /usr/local/include/pangolin/utils/assert.h \
+ /usr/local/include/pangolin/utils/format_string.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -152,16 +151,15 @@ CMakeFiles/visualize.dir/plotTrajectory.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/iostream \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/log.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_display/include/pangolin/display/display.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glinclude.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glplatform.h \
- /usr/include/GL/glew.h /usr/include/c++/11/cstddef /usr/include/GL/glu.h \
- /usr/include/GL/gl.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glpangoglu.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/viewport.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/params.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/type_convert.h \
+ /usr/local/include/pangolin/utils/log.h \
+ /usr/local/include/pangolin/display/display.h \
+ /usr/local/include/pangolin/gl/glinclude.h \
+ /usr/local/include/pangolin/gl/glplatform.h /usr/include/GL/glew.h \
+ /usr/include/c++/11/cstddef /usr/include/GL/glu.h /usr/include/GL/gl.h \
+ /usr/local/include/pangolin/gl/glpangoglu.h \
+ /usr/local/include/pangolin/gl/viewport.h \
+ /usr/local/include/pangolin/utils/params.h \
+ /usr/local/include/pangolin/utils/type_convert.h \
  /usr/include/c++/11/functional /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
@@ -183,11 +181,11 @@ CMakeFiles/visualize.dir/plotTrajectory.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/compat/type_traits.h \
+ /usr/local/include/pangolin/compat/type_traits.h \
  /usr/include/c++/11/algorithm \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_windowing/include/pangolin/windowing/window.h \
+ /usr/local/include/pangolin/windowing/window.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -201,26 +199,24 @@ CMakeFiles/visualize.dir/plotTrajectory.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/signal_slot.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/sigslot/signal.hpp \
- /usr/include/c++/11/atomic /usr/include/c++/11/mutex \
- /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
- /usr/include/c++/11/limits /usr/include/c++/11/ctime \
- /usr/include/c++/11/bits/parse_numbers.h \
+ /usr/local/include/pangolin/utils/signal_slot.h \
+ /usr/local/include/sigslot/signal.hpp /usr/include/c++/11/atomic \
+ /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
+ /usr/include/c++/11/ratio /usr/include/c++/11/limits \
+ /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/true_false_toggle.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/uri.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_windowing/include/pangolin/windowing/handler_bitsets.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/bitmask.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_windowing/include/pangolin/windowing/handler_enums.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_display/include/pangolin/display/display.hpp \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_display/include/pangolin/display/view.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_display/include/pangolin/display/attach.h \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/local/include/pangolin/utils/true_false_toggle.h \
+ /usr/local/include/pangolin/utils/uri.h \
+ /usr/local/include/pangolin/windowing/handler_bitsets.h \
+ /usr/local/include/pangolin/utils/bitmask.h \
+ /usr/local/include/pangolin/windowing/handler_enums.h \
+ /usr/local/include/pangolin/display/display.hpp \
+ /usr/local/include/pangolin/display/view.h \
+ /usr/local/include/pangolin/display/attach.h /usr/include/c++/11/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -241,25 +237,22 @@ CMakeFiles/visualize.dir/plotTrajectory.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_display/include/pangolin/display/widgets.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/var.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/is_streamable.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/varvalue.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/varvaluet.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/varvaluegeneric.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/file_utils.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/varwrapper.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/varstate.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_map.h \
+ /usr/local/include/pangolin/display/widgets.h \
+ /usr/local/include/pangolin/var/var.h /usr/include/string.h \
+ /usr/include/strings.h /usr/local/include/pangolin/utils/is_streamable.h \
+ /usr/local/include/pangolin/var/varvalue.h \
+ /usr/local/include/pangolin/var/varvaluet.h \
+ /usr/local/include/pangolin/var/varvaluegeneric.h \
+ /usr/local/include/pangolin/utils/file_utils.h \
+ /usr/local/include/pangolin/var/varwrapper.h \
+ /usr/local/include/pangolin/var/varstate.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/any \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/varinit.h \
- /usr/include/c++/11/cstring \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_display/include/pangolin/handler/handler.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/opengl_render_state.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/simple_math.h \
+ /usr/local/include/pangolin/var/varinit.h /usr/include/c++/11/cstring \
+ /usr/local/include/pangolin/handler/handler.h \
+ /usr/local/include/pangolin/gl/opengl_render_state.h \
+ /usr/local/include/pangolin/utils/simple_math.h \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -443,53 +436,49 @@ CMakeFiles/visualize.dir/plotTrajectory.cpp.o: \
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/gl.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_image/include/pangolin/image/image_io.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_image/include/pangolin/image/typed_image.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_image/include/pangolin/image/managed_image.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_image/include/pangolin/image/image.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_image/include/pangolin/image/memcpy.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_image/include/pangolin/image/copy.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_image/include/pangolin/image/pixel_format.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/file_extension.h \
- /usr/include/c++/11/math.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/gl.hpp \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glpixformat.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glformattraits.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glfont.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/gltext.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glchar.h \
- /usr/include/c++/11/cstdarg \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/colour.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/gldraw.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glstate.h \
- /usr/include/c++/11/stack /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_stack.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glvbo.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_plot/include/pangolin/plot/plotter.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glsl.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /usr/local/include/pangolin/gl/gl.h \
+ /usr/local/include/pangolin/image/image_io.h \
+ /usr/local/include/pangolin/image/typed_image.h \
+ /usr/local/include/pangolin/image/managed_image.h \
+ /usr/local/include/pangolin/image/image.h \
+ /usr/local/include/pangolin/image/memcpy.h \
+ /usr/local/include/pangolin/image/copy.h \
+ /usr/local/include/pangolin/image/pixel_format.h \
+ /usr/local/include/pangolin/utils/file_extension.h \
+ /usr/include/c++/11/math.h /usr/local/include/pangolin/gl/gl.hpp \
+ /usr/local/include/pangolin/gl/glpixformat.h \
+ /usr/local/include/pangolin/gl/glformattraits.h \
+ /usr/local/include/pangolin/gl/glfont.h \
+ /usr/local/include/pangolin/gl/gltext.h \
+ /usr/local/include/pangolin/gl/glchar.h /usr/include/c++/11/cstdarg \
+ /usr/local/include/pangolin/gl/colour.h \
+ /usr/local/include/pangolin/gl/gldraw.h \
+ /usr/local/include/pangolin/gl/glstate.h /usr/include/c++/11/stack \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_stack.h \
+ /usr/local/include/pangolin/gl/glvbo.h \
+ /usr/local/include/pangolin/plot/plotter.h \
+ /usr/local/include/pangolin/gl/glsl.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_opengl/include/pangolin/gl/glsl.hpp \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/range.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_plot/include/pangolin/plot/datalog.h \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/local/include/pangolin/gl/glsl.hpp \
+ /usr/local/include/pangolin/utils/range.h \
+ /usr/local/include/pangolin/plot/datalog.h /usr/include/c++/11/set \
+ /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_vars/include/pangolin/var/varextra.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_video/include/pangolin/video/video.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_video/include/pangolin/video/video_exception.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_video/include/pangolin/video/video_interface.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_core/include/pangolin/utils/picojson.h \
+ /usr/local/include/pangolin/var/varextra.h \
+ /usr/local/include/pangolin/video/video.h \
+ /usr/local/include/pangolin/video/video_exception.h \
+ /usr/local/include/pangolin/video/video_interface.h \
+ /usr/local/include/pangolin/utils/picojson.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /usr/include/inttypes.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_video/include/pangolin/video/stream_info.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_video/include/pangolin/video/video_output_interface.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_video/include/pangolin/video/video_input.h \
- /home/angelhyc/slambook2/ch3/Pangolin/components/pango_video/include/pangolin/video/video_output.h \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/inttypes.h /usr/local/include/pangolin/video/stream_info.h \
+ /usr/local/include/pangolin/video/video_output_interface.h \
+ /usr/local/include/pangolin/video/video_input.h \
+ /usr/local/include/pangolin/video/video_output.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \

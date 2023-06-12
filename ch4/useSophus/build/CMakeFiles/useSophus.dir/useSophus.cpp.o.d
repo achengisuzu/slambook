@@ -1,5 +1,5 @@
-CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
- /home/angelhyc/slambook2/ch3/visualizeGeometry/visualizeGeometry.cpp \
+CMakeFiles/useSophus.dir/useSophus.cpp.o: \
+ /home/angelhyc/slambook2/ch4/useSophus/useSophus.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -11,8 +11,9 @@ CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
+ /usr/include/c++/11/pstl/pstl_config.h /usr/include/c++/11/ostream \
+ /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
+ /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
  /usr/include/c++/11/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -104,7 +105,9 @@ CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
  /usr/include/c++/11/bits/basic_string.h \
  /usr/include/c++/11/ext/alloc_traits.h \
  /usr/include/c++/11/bits/alloc_traits.h \
- /usr/include/c++/11/bits/stl_construct.h \
+ /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/string_view \
+ /usr/include/c++/11/bits/functional_hash.h \
+ /usr/include/c++/11/bits/string_view.tcc \
  /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -127,7 +130,6 @@ CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
- /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /usr/include/c++/11/bits/locale_classes.tcc \
  /usr/include/c++/11/system_error \
@@ -143,24 +145,8 @@ CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/iomanip \
- /usr/include/c++/11/locale \
- /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
- /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
- /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/utility \
- /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/invoke.h \
- /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc /usr/include/eigen3/Eigen/Core \
- /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
- /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -169,19 +155,53 @@ CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/limits \
+ /usr/include/c++/11/tr1/gamma.tcc \
+ /usr/include/c++/11/tr1/special_function_util.h \
+ /usr/include/c++/11/tr1/bessel_function.tcc \
+ /usr/include/c++/11/tr1/beta_function.tcc \
+ /usr/include/c++/11/tr1/ell_integral.tcc \
+ /usr/include/c++/11/tr1/exp_integral.tcc \
+ /usr/include/c++/11/tr1/hypergeometric.tcc \
+ /usr/include/c++/11/tr1/legendre_function.tcc \
+ /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/11/tr1/poly_hermite.tcc \
+ /usr/include/c++/11/tr1/poly_laguerre.tcc \
+ /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/eigen3/Eigen/Core \
+ /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/complex \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/functional \
- /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/limits \
- /usr/include/c++/11/climits \
+ /usr/include/c++/11/tuple /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
+ /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
+ /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/unordered_map \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/bits/algorithmfwd.h \
+ /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -190,11 +210,9 @@ CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11/pstl/execution_defs.h \
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
@@ -361,109 +379,49 @@ CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o: \
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
- /usr/local/include/pangolin/pangolin.h \
- /usr/local/include/pangolin/platform.h \
- /usr/local/include/pangolin/utils/assert.h \
- /usr/local/include/pangolin/utils/format_string.h \
- /usr/local/include/pangolin/utils/log.h \
- /usr/local/include/pangolin/display/display.h \
- /usr/local/include/pangolin/gl/glinclude.h \
- /usr/local/include/pangolin/gl/glplatform.h /usr/include/GL/glew.h \
- /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /usr/local/include/pangolin/gl/glpangoglu.h \
- /usr/local/include/pangolin/gl/viewport.h \
- /usr/local/include/pangolin/utils/params.h \
- /usr/local/include/pangolin/utils/type_convert.h \
- /usr/local/include/pangolin/compat/type_traits.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /usr/local/include/pangolin/windowing/window.h \
+ /home/angelhyc/slambook2/3rdparty/Sophus/sophus/se3.hpp \
+ /home/angelhyc/slambook2/3rdparty/Sophus/sophus/so3.hpp \
+ /home/angelhyc/slambook2/3rdparty/Sophus/sophus/rotation_matrix.hpp \
+ /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Geometry \
+ /usr/include/eigen3/Eigen/Eigenvalues \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+ /usr/include/eigen3/Eigen/SVD \
+ /home/angelhyc/slambook2/3rdparty/Sophus/sophus/types.hpp \
+ /home/angelhyc/slambook2/3rdparty/Sophus/sophus/common.hpp \
+ /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
+ /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
+ /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/pstl/glue_numeric_defs.h /usr/include/fmt/format.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /usr/local/include/pangolin/utils/signal_slot.h \
- /usr/local/include/sigslot/signal.hpp /usr/include/c++/11/mutex \
- /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
- /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h \
- /usr/include/c++/11/bits/this_thread_sleep.h \
- /usr/local/include/pangolin/utils/true_false_toggle.h \
- /usr/local/include/pangolin/utils/uri.h \
- /usr/local/include/pangolin/windowing/handler_bitsets.h \
- /usr/local/include/pangolin/utils/bitmask.h \
- /usr/local/include/pangolin/windowing/handler_enums.h \
- /usr/local/include/pangolin/display/display.hpp \
- /usr/local/include/pangolin/display/view.h \
- /usr/local/include/pangolin/display/attach.h \
- /usr/local/include/pangolin/display/widgets.h \
- /usr/local/include/pangolin/var/var.h \
- /usr/local/include/pangolin/utils/is_streamable.h \
- /usr/local/include/pangolin/var/varvalue.h \
- /usr/local/include/pangolin/var/varvaluet.h \
- /usr/local/include/pangolin/var/varvaluegeneric.h \
- /usr/local/include/pangolin/utils/file_utils.h \
- /usr/local/include/pangolin/var/varwrapper.h \
- /usr/local/include/pangolin/var/varstate.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/any \
- /usr/local/include/pangolin/var/varinit.h \
- /usr/local/include/pangolin/handler/handler.h \
- /usr/local/include/pangolin/gl/opengl_render_state.h \
- /usr/local/include/pangolin/utils/simple_math.h \
- /usr/local/include/pangolin/gl/gl.h \
- /usr/local/include/pangolin/image/image_io.h \
- /usr/local/include/pangolin/image/typed_image.h \
- /usr/local/include/pangolin/image/managed_image.h \
- /usr/local/include/pangolin/image/image.h \
- /usr/local/include/pangolin/image/memcpy.h \
- /usr/local/include/pangolin/image/copy.h \
- /usr/local/include/pangolin/image/pixel_format.h \
- /usr/local/include/pangolin/utils/file_extension.h \
- /usr/include/c++/11/math.h /usr/local/include/pangolin/gl/gl.hpp \
- /usr/local/include/pangolin/gl/glpixformat.h \
- /usr/local/include/pangolin/gl/glformattraits.h \
- /usr/local/include/pangolin/gl/glfont.h \
- /usr/local/include/pangolin/gl/gltext.h \
- /usr/local/include/pangolin/gl/glchar.h /usr/include/c++/11/cstdarg \
- /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/local/include/pangolin/gl/colour.h \
- /usr/local/include/pangolin/gl/gldraw.h \
- /usr/local/include/pangolin/gl/glstate.h /usr/include/c++/11/stack \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
- /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_stack.h \
- /usr/local/include/pangolin/gl/glvbo.h \
- /usr/local/include/pangolin/plot/plotter.h \
- /usr/local/include/pangolin/gl/glsl.h /usr/include/c++/11/fstream \
- /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
- /usr/local/include/pangolin/gl/glsl.hpp \
- /usr/local/include/pangolin/utils/range.h \
- /usr/local/include/pangolin/plot/datalog.h /usr/include/c++/11/set \
- /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
- /usr/local/include/pangolin/var/varextra.h \
- /usr/local/include/pangolin/video/video.h \
- /usr/local/include/pangolin/video/video_exception.h \
- /usr/local/include/pangolin/video/video_interface.h \
- /usr/local/include/pangolin/utils/picojson.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h /usr/include/fmt/core.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /usr/include/inttypes.h /usr/local/include/pangolin/video/stream_info.h \
- /usr/local/include/pangolin/video/video_output_interface.h \
- /usr/local/include/pangolin/video/video_input.h \
- /usr/local/include/pangolin/video/video_output.h
+ /usr/include/fmt/ostream.h /usr/include/fmt/format.h \
+ /home/angelhyc/slambook2/3rdparty/Sophus/sophus/so2.hpp \
+ /usr/include/eigen3/Eigen/LU \
+ /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+ /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h

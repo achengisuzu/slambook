@@ -92,25 +92,25 @@ visualize_EXTERNAL_OBJECTS =
 
 visualize: CMakeFiles/visualize.dir/plotTrajectory.cpp.o
 visualize: CMakeFiles/visualize.dir/build.make
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_glgeometry.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_python.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_scene.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_tools.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_video.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_geometry.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libtinyobj.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_plot.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_display.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_vars.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_windowing.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_opengl.so
+visualize: /usr/local/lib/libpango_glgeometry.so
+visualize: /usr/local/lib/libpango_python.so
+visualize: /usr/local/lib/libpango_scene.so
+visualize: /usr/local/lib/libpango_tools.so
+visualize: /usr/local/lib/libpango_video.so
+visualize: /usr/local/lib/libpango_geometry.so
+visualize: /usr/local/lib/libtinyobj.so
+visualize: /usr/local/lib/libpango_plot.so
+visualize: /usr/local/lib/libpango_display.so
+visualize: /usr/local/lib/libpango_vars.so
+visualize: /usr/local/lib/libpango_windowing.so
+visualize: /usr/local/lib/libpango_opengl.so
 visualize: /usr/lib/x86_64-linux-gnu/libGLEW.so
 visualize: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 visualize: /usr/lib/x86_64-linux-gnu/libGLX.so
 visualize: /usr/lib/x86_64-linux-gnu/libGLU.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_image.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_packetstream.so
-visualize: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_core.so
+visualize: /usr/local/lib/libpango_image.so
+visualize: /usr/local/lib/libpango_packetstream.so
+visualize: /usr/local/lib/libpango_core.so
 visualize: CMakeFiles/visualize.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelhyc/slambook2/ch3/examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable visualize"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/visualize.dir/link.txt --verbose=$(VERBOSE)

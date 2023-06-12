@@ -92,25 +92,25 @@ visualizeGeometry_EXTERNAL_OBJECTS =
 
 visualizeGeometry: CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o
 visualizeGeometry: CMakeFiles/visualizeGeometry.dir/build.make
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_glgeometry.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_python.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_scene.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_tools.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_video.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_geometry.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libtinyobj.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_plot.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_display.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_vars.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_windowing.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_opengl.so
+visualizeGeometry: /usr/local/lib/libpango_glgeometry.so
+visualizeGeometry: /usr/local/lib/libpango_python.so
+visualizeGeometry: /usr/local/lib/libpango_scene.so
+visualizeGeometry: /usr/local/lib/libpango_tools.so
+visualizeGeometry: /usr/local/lib/libpango_video.so
+visualizeGeometry: /usr/local/lib/libpango_geometry.so
+visualizeGeometry: /usr/local/lib/libtinyobj.so
+visualizeGeometry: /usr/local/lib/libpango_plot.so
+visualizeGeometry: /usr/local/lib/libpango_display.so
+visualizeGeometry: /usr/local/lib/libpango_vars.so
+visualizeGeometry: /usr/local/lib/libpango_windowing.so
+visualizeGeometry: /usr/local/lib/libpango_opengl.so
 visualizeGeometry: /usr/lib/x86_64-linux-gnu/libGLEW.so
 visualizeGeometry: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 visualizeGeometry: /usr/lib/x86_64-linux-gnu/libGLX.so
 visualizeGeometry: /usr/lib/x86_64-linux-gnu/libGLU.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_image.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_packetstream.so
-visualizeGeometry: /home/angelhyc/slambook2/ch3/Pangolin/build/libpango_core.so
+visualizeGeometry: /usr/local/lib/libpango_image.so
+visualizeGeometry: /usr/local/lib/libpango_packetstream.so
+visualizeGeometry: /usr/local/lib/libpango_core.so
 visualizeGeometry: CMakeFiles/visualizeGeometry.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelhyc/slambook2/ch3/visualizeGeometry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable visualizeGeometry"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/visualizeGeometry.dir/link.txt --verbose=$(VERBOSE)
