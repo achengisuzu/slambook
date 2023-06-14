@@ -100,6 +100,11 @@ stereoVision: /usr/local/lib/libopencv_photo.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_stitching.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_video.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_videoio.so.4.7.0
+stereoVision: /usr/local/lib/libpango_glgeometry.so
+stereoVision: /usr/local/lib/libpango_python.so
+stereoVision: /usr/local/lib/libpango_scene.so
+stereoVision: /usr/local/lib/libpango_tools.so
+stereoVision: /usr/local/lib/libpango_video.so
 stereoVision: /usr/local/lib/libopencv_imgcodecs.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_dnn.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_calib3d.so.4.7.0
@@ -107,6 +112,20 @@ stereoVision: /usr/local/lib/libopencv_features2d.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_flann.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_imgproc.so.4.7.0
 stereoVision: /usr/local/lib/libopencv_core.so.4.7.0
+stereoVision: /usr/local/lib/libpango_geometry.so
+stereoVision: /usr/local/lib/libtinyobj.so
+stereoVision: /usr/local/lib/libpango_plot.so
+stereoVision: /usr/local/lib/libpango_display.so
+stereoVision: /usr/local/lib/libpango_vars.so
+stereoVision: /usr/local/lib/libpango_windowing.so
+stereoVision: /usr/local/lib/libpango_opengl.so
+stereoVision: /usr/lib/x86_64-linux-gnu/libGLEW.so
+stereoVision: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+stereoVision: /usr/lib/x86_64-linux-gnu/libGLX.so
+stereoVision: /usr/lib/x86_64-linux-gnu/libGLU.so
+stereoVision: /usr/local/lib/libpango_image.so
+stereoVision: /usr/local/lib/libpango_packetstream.so
+stereoVision: /usr/local/lib/libpango_core.so
 stereoVision: CMakeFiles/stereoVision.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stereoVision"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stereoVision.dir/link.txt --verbose=$(VERBOSE)

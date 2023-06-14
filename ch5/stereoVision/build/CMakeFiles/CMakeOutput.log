@@ -449,3 +449,51 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9b2c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9b2c.dir/build.make CMakeFiles/cmTC_e9b2c.dir/build
+gmake[1]: Entering directory '/home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9b2c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e9b2c.dir/CheckIncludeFile.c.o -c /home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e9b2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9b2c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e9b2c.dir/CheckIncludeFile.c.o -o cmTC_e9b2c 
+gmake[1]: Leaving directory '/home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56d80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56d80.dir/build.make CMakeFiles/cmTC_56d80.dir/build
+gmake[1]: Entering directory '/home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56d80.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_56d80.dir/src.c.o -c /home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_56d80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d80.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_56d80.dir/src.c.o -o cmTC_56d80 
+gmake[1]: Leaving directory '/home/angelhyc/slambook2/ch5/stereoVision/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
