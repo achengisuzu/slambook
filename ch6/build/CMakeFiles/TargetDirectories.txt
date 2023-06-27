@@ -1,3 +1,0 @@
-/home/angelhyc/slambook2/ch6/build/CMakeFiles/guassNewton.dir
-/home/angelhyc/slambook2/ch6/build/CMakeFiles/edit_cache.dir
-/home/angelhyc/slambook2/ch6/build/CMakeFiles/rebuild_cache.dir
