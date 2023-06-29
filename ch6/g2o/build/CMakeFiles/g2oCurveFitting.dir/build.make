@@ -92,24 +92,12 @@ g2oCurveFitting_EXTERNAL_OBJECTS =
 
 g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o
 g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/build.make
-g2oCurveFitting: /usr/local/lib/libopencv_gapi.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_highgui.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_ml.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_objdetect.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_photo.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_stitching.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_video.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_videoio.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libg2o_core.so
-g2oCurveFitting: /usr/local/lib/libg2o_stuff.so
-g2oCurveFitting: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
-g2oCurveFitting: /usr/local/lib/libopencv_imgcodecs.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_dnn.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_calib3d.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_features2d.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_flann.so.4.7.0
-g2oCurveFitting: /usr/local/lib/libopencv_imgproc.so.4.7.0
 g2oCurveFitting: /usr/local/lib/libopencv_core.so.4.7.0
+g2oCurveFitting: /usr/local/lib/libg2o_solver_dense.so.0.1.0
+g2oCurveFitting: /usr/local/lib/libg2o_core.so.0.1.0
+g2oCurveFitting: /usr/local/lib/libg2o_stuff.so.0.1.0
+g2oCurveFitting: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
+g2oCurveFitting: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelhyc/slambook2/ch6/g2o/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable g2oCurveFitting"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2oCurveFitting.dir/link.txt --verbose=$(VERBOSE)

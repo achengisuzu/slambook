@@ -100,11 +100,6 @@ guassNewton: /usr/local/lib/libopencv_photo.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_stitching.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_video.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_videoio.so.4.7.0
-guassNewton: /usr/local/lib/libpango_glgeometry.so
-guassNewton: /usr/local/lib/libpango_python.so
-guassNewton: /usr/local/lib/libpango_scene.so
-guassNewton: /usr/local/lib/libpango_tools.so
-guassNewton: /usr/local/lib/libpango_video.so
 guassNewton: /usr/local/lib/libopencv_imgcodecs.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_dnn.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_calib3d.so.4.7.0
@@ -112,20 +107,6 @@ guassNewton: /usr/local/lib/libopencv_features2d.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_flann.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_imgproc.so.4.7.0
 guassNewton: /usr/local/lib/libopencv_core.so.4.7.0
-guassNewton: /usr/local/lib/libpango_geometry.so
-guassNewton: /usr/local/lib/libtinyobj.so
-guassNewton: /usr/local/lib/libpango_plot.so
-guassNewton: /usr/local/lib/libpango_display.so
-guassNewton: /usr/local/lib/libpango_vars.so
-guassNewton: /usr/local/lib/libpango_windowing.so
-guassNewton: /usr/local/lib/libpango_opengl.so
-guassNewton: /usr/lib/x86_64-linux-gnu/libGLEW.so
-guassNewton: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-guassNewton: /usr/lib/x86_64-linux-gnu/libGLX.so
-guassNewton: /usr/lib/x86_64-linux-gnu/libGLU.so
-guassNewton: /usr/local/lib/libpango_image.so
-guassNewton: /usr/local/lib/libpango_packetstream.so
-guassNewton: /usr/local/lib/libpango_core.so
 guassNewton: CMakeFiles/guassNewton.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelhyc/slambook2/ch6/guassNewton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable guassNewton"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/guassNewton.dir/link.txt --verbose=$(VERBOSE)
