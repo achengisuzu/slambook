@@ -16,5 +16,4 @@ target_include_directories( guassNewton
 target_link_libraries( guassNewton 
     PRIVATE 
     ${OpenCV_LIBS}
-
 )
