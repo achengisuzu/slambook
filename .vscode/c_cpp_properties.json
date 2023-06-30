@@ -2,15 +2,24 @@
     "configurations": [
         {
             "name": "Linux",
+            "compilerPathInCppPropertiesJson": "/usr/bin/clang-13",
             "includePath": [
-                "${workspaceFolder}/**"
+                "/home/angelhyc/slambook2/**",
+                "/usr/include/opencv4/**",
+                "/usr/include/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang-13",
             "cStandard": "c17",
-            "cppStandard": "c++14",
+            "cppStandard": "c++17",
             "intelliSenseMode": "linux-clang-x64",
-            "compileCommands": "${workspaceFolder}/ch3/build/compile_commands.json"
+            "mergeConfigurations": false,
+            "compilerPath": "/usr/bin/gcc",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4
