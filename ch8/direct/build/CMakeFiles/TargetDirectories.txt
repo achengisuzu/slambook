@@ -1,0 +1,3 @@
+/home/angelhyc/slambook2/ch8/direct/build/CMakeFiles/direct.dir
+/home/angelhyc/slambook2/ch8/direct/build/CMakeFiles/edit_cache.dir
+/home/angelhyc/slambook2/ch8/direct/build/CMakeFiles/rebuild_cache.dir
