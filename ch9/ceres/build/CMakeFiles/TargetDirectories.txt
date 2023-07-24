@@ -1,4 +1,0 @@
-/home/angelhyc/slambook2/ch9/ceres/build/CMakeFiles/bac.dir
-/home/angelhyc/slambook2/ch9/ceres/build/CMakeFiles/bal_common.dir
-/home/angelhyc/slambook2/ch9/ceres/build/CMakeFiles/edit_cache.dir
-/home/angelhyc/slambook2/ch9/ceres/build/CMakeFiles/rebuild_cache.dir
