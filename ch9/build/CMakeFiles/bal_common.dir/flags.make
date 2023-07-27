@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/angelhyc/slambook2/ch9 -I/usr/include/eigen3 -I/usr/include/suitesparse
+CXX_INCLUDES = -I/home/angelhyc/slambook2/ch9 -I/usr/include/eigen3
 
-CXX_FLAGS = -O3 -O3 -DNDEBUG
+CXX_FLAGS = -O3 -std=c++17
 

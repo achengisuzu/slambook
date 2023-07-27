@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -O3 -DNDEBUG -rdynamic CMakeFiles/bag.dir/bundleadjustmentg2o.cpp.o -o bag  -lg2o_csparse_extension -lg2o_stuff -lg2o_core -lcxsparse libbal_common.a /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1 -Wl,--as-needed 

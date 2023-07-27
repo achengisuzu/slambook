@@ -117,32 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bac
-
-# Build rule for target.
-bac: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bac
-.PHONY : bac
-
-# fast build rule for target.
-bac/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bac.dir/build.make CMakeFiles/bac.dir/build
-.PHONY : bac/fast
-
-#=============================================================================
-# Target rules for targets named bag
-
-# Build rule for target.
-bag: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bag
-.PHONY : bag
-
-# fast build rule for target.
-bag/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bag.dir/build.make CMakeFiles/bag.dir/build
-.PHONY : bag/fast
-
-#=============================================================================
 # Target rules for targets named bal_common
 
 # Build rule for target.
@@ -155,53 +129,79 @@ bal_common/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/build
 .PHONY : bal_common/fast
 
-bundleadjustmentceres.o: bundleadjustmentceres.cpp.o
-.PHONY : bundleadjustmentceres.o
+#=============================================================================
+# Target rules for targets named bundle_adjustment_g2o
+
+# Build rule for target.
+bundle_adjustment_g2o: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bundle_adjustment_g2o
+.PHONY : bundle_adjustment_g2o
+
+# fast build rule for target.
+bundle_adjustment_g2o/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_g2o.dir/build.make CMakeFiles/bundle_adjustment_g2o.dir/build
+.PHONY : bundle_adjustment_g2o/fast
+
+#=============================================================================
+# Target rules for targets named bundle_adjustment_ceres
+
+# Build rule for target.
+bundle_adjustment_ceres: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bundle_adjustment_ceres
+.PHONY : bundle_adjustment_ceres
+
+# fast build rule for target.
+bundle_adjustment_ceres/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/build
+.PHONY : bundle_adjustment_ceres/fast
+
+bundle_adjustment_ceres.o: bundle_adjustment_ceres.cpp.o
+.PHONY : bundle_adjustment_ceres.o
 
 # target to build an object file
-bundleadjustmentceres.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bac.dir/build.make CMakeFiles/bac.dir/bundleadjustmentceres.cpp.o
-.PHONY : bundleadjustmentceres.cpp.o
+bundle_adjustment_ceres.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o
+.PHONY : bundle_adjustment_ceres.cpp.o
 
-bundleadjustmentceres.i: bundleadjustmentceres.cpp.i
-.PHONY : bundleadjustmentceres.i
+bundle_adjustment_ceres.i: bundle_adjustment_ceres.cpp.i
+.PHONY : bundle_adjustment_ceres.i
 
 # target to preprocess a source file
-bundleadjustmentceres.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bac.dir/build.make CMakeFiles/bac.dir/bundleadjustmentceres.cpp.i
-.PHONY : bundleadjustmentceres.cpp.i
+bundle_adjustment_ceres.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.i
+.PHONY : bundle_adjustment_ceres.cpp.i
 
-bundleadjustmentceres.s: bundleadjustmentceres.cpp.s
-.PHONY : bundleadjustmentceres.s
+bundle_adjustment_ceres.s: bundle_adjustment_ceres.cpp.s
+.PHONY : bundle_adjustment_ceres.s
 
 # target to generate assembly for a file
-bundleadjustmentceres.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bac.dir/build.make CMakeFiles/bac.dir/bundleadjustmentceres.cpp.s
-.PHONY : bundleadjustmentceres.cpp.s
+bundle_adjustment_ceres.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.s
+.PHONY : bundle_adjustment_ceres.cpp.s
 
-bundleadjustmentg2o.o: bundleadjustmentg2o.cpp.o
-.PHONY : bundleadjustmentg2o.o
+bundle_adjustment_g2o.o: bundle_adjustment_g2o.cpp.o
+.PHONY : bundle_adjustment_g2o.o
 
 # target to build an object file
-bundleadjustmentg2o.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bag.dir/build.make CMakeFiles/bag.dir/bundleadjustmentg2o.cpp.o
-.PHONY : bundleadjustmentg2o.cpp.o
+bundle_adjustment_g2o.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_g2o.dir/build.make CMakeFiles/bundle_adjustment_g2o.dir/bundle_adjustment_g2o.cpp.o
+.PHONY : bundle_adjustment_g2o.cpp.o
 
-bundleadjustmentg2o.i: bundleadjustmentg2o.cpp.i
-.PHONY : bundleadjustmentg2o.i
+bundle_adjustment_g2o.i: bundle_adjustment_g2o.cpp.i
+.PHONY : bundle_adjustment_g2o.i
 
 # target to preprocess a source file
-bundleadjustmentg2o.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bag.dir/build.make CMakeFiles/bag.dir/bundleadjustmentg2o.cpp.i
-.PHONY : bundleadjustmentg2o.cpp.i
+bundle_adjustment_g2o.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_g2o.dir/build.make CMakeFiles/bundle_adjustment_g2o.dir/bundle_adjustment_g2o.cpp.i
+.PHONY : bundle_adjustment_g2o.cpp.i
 
-bundleadjustmentg2o.s: bundleadjustmentg2o.cpp.s
-.PHONY : bundleadjustmentg2o.s
+bundle_adjustment_g2o.s: bundle_adjustment_g2o.cpp.s
+.PHONY : bundle_adjustment_g2o.s
 
 # target to generate assembly for a file
-bundleadjustmentg2o.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bag.dir/build.make CMakeFiles/bag.dir/bundleadjustmentg2o.cpp.s
-.PHONY : bundleadjustmentg2o.cpp.s
+bundle_adjustment_g2o.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bundle_adjustment_g2o.dir/build.make CMakeFiles/bundle_adjustment_g2o.dir/bundle_adjustment_g2o.cpp.s
+.PHONY : bundle_adjustment_g2o.cpp.s
 
 common.o: common.cpp.o
 .PHONY : common.o
@@ -235,15 +235,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... bac"
-	@echo "... bag"
 	@echo "... bal_common"
-	@echo "... bundleadjustmentceres.o"
-	@echo "... bundleadjustmentceres.i"
-	@echo "... bundleadjustmentceres.s"
-	@echo "... bundleadjustmentg2o.o"
-	@echo "... bundleadjustmentg2o.i"
-	@echo "... bundleadjustmentg2o.s"
+	@echo "... bundle_adjustment_ceres"
+	@echo "... bundle_adjustment_g2o"
+	@echo "... bundle_adjustment_ceres.o"
+	@echo "... bundle_adjustment_ceres.i"
+	@echo "... bundle_adjustment_ceres.s"
+	@echo "... bundle_adjustment_g2o.o"
+	@echo "... bundle_adjustment_g2o.i"
+	@echo "... bundle_adjustment_g2o.s"
 	@echo "... common.o"
 	@echo "... common.i"
 	@echo "... common.s"
