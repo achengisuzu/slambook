@@ -129,6 +129,19 @@ g2o_pose/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g2o_pose.dir/build.make CMakeFiles/g2o_pose.dir/build
 .PHONY : g2o_pose/fast
 
+#=============================================================================
+# Target rules for targets named pose_sophus
+
+# Build rule for target.
+pose_sophus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pose_sophus
+.PHONY : pose_sophus
+
+# fast build rule for target.
+pose_sophus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_sophus.dir/build.make CMakeFiles/pose_sophus.dir/build
+.PHONY : pose_sophus/fast
+
 pose_graph_g2o_SE3.o: pose_graph_g2o_SE3.cpp.o
 .PHONY : pose_graph_g2o_SE3.o
 
@@ -153,6 +166,30 @@ pose_graph_g2o_SE3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g2o_pose.dir/build.make CMakeFiles/g2o_pose.dir/pose_graph_g2o_SE3.cpp.s
 .PHONY : pose_graph_g2o_SE3.cpp.s
 
+pose_graph_g2o_lie_algebra.o: pose_graph_g2o_lie_algebra.cpp.o
+.PHONY : pose_graph_g2o_lie_algebra.o
+
+# target to build an object file
+pose_graph_g2o_lie_algebra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_sophus.dir/build.make CMakeFiles/pose_sophus.dir/pose_graph_g2o_lie_algebra.cpp.o
+.PHONY : pose_graph_g2o_lie_algebra.cpp.o
+
+pose_graph_g2o_lie_algebra.i: pose_graph_g2o_lie_algebra.cpp.i
+.PHONY : pose_graph_g2o_lie_algebra.i
+
+# target to preprocess a source file
+pose_graph_g2o_lie_algebra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_sophus.dir/build.make CMakeFiles/pose_sophus.dir/pose_graph_g2o_lie_algebra.cpp.i
+.PHONY : pose_graph_g2o_lie_algebra.cpp.i
+
+pose_graph_g2o_lie_algebra.s: pose_graph_g2o_lie_algebra.cpp.s
+.PHONY : pose_graph_g2o_lie_algebra.s
+
+# target to generate assembly for a file
+pose_graph_g2o_lie_algebra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_sophus.dir/build.make CMakeFiles/pose_sophus.dir/pose_graph_g2o_lie_algebra.cpp.s
+.PHONY : pose_graph_g2o_lie_algebra.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... g2o_pose"
+	@echo "... pose_sophus"
 	@echo "... pose_graph_g2o_SE3.o"
 	@echo "... pose_graph_g2o_SE3.i"
 	@echo "... pose_graph_g2o_SE3.s"
+	@echo "... pose_graph_g2o_lie_algebra.o"
+	@echo "... pose_graph_g2o_lie_algebra.i"
+	@echo "... pose_graph_g2o_lie_algebra.s"
 .PHONY : help
 
 

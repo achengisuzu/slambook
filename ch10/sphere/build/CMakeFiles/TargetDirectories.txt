@@ -1,3 +1,4 @@
 /home/angelhyc/slambook2/ch10/sphere/build/CMakeFiles/g2o_pose.dir
+/home/angelhyc/slambook2/ch10/sphere/build/CMakeFiles/pose_sophus.dir
 /home/angelhyc/slambook2/ch10/sphere/build/CMakeFiles/edit_cache.dir
 /home/angelhyc/slambook2/ch10/sphere/build/CMakeFiles/rebuild_cache.dir

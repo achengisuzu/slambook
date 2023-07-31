@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/angelhyc/slambook2/ch10/sphere/build
 
 # The main recursive "all" target.
 all: CMakeFiles/g2o_pose.dir/all
+all: CMakeFiles/pose_sophus.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/g2o_pose.dir/clean
+clean: CMakeFiles/pose_sophus.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ g2o_pose: CMakeFiles/g2o_pose.dir/rule
 CMakeFiles/g2o_pose.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g2o_pose.dir/build.make CMakeFiles/g2o_pose.dir/clean
 .PHONY : CMakeFiles/g2o_pose.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pose_sophus.dir
+
+# All Build rule for target.
+CMakeFiles/pose_sophus.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_sophus.dir/build.make CMakeFiles/pose_sophus.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_sophus.dir/build.make CMakeFiles/pose_sophus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/angelhyc/slambook2/ch10/sphere/build/CMakeFiles --progress-num=3,4 "Built target pose_sophus"
+.PHONY : CMakeFiles/pose_sophus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pose_sophus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelhyc/slambook2/ch10/sphere/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pose_sophus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelhyc/slambook2/ch10/sphere/build/CMakeFiles 0
+.PHONY : CMakeFiles/pose_sophus.dir/rule
+
+# Convenience name for target.
+pose_sophus: CMakeFiles/pose_sophus.dir/rule
+.PHONY : pose_sophus
+
+# clean rule for target.
+CMakeFiles/pose_sophus.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_sophus.dir/build.make CMakeFiles/pose_sophus.dir/clean
+.PHONY : CMakeFiles/pose_sophus.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

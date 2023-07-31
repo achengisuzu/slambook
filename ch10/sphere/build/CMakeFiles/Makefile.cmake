@@ -41,6 +41,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/g2o/g2oConfigVersion.cmake"
   "/usr/local/lib/cmake/g2o/g2oTargets-release.cmake"
   "/usr/local/lib/cmake/g2o/g2oTargets.cmake"
+  "/usr/local/share/sophus/cmake/SophusConfig.cmake"
+  "/usr/local/share/sophus/cmake/SophusConfigVersion.cmake"
+  "/usr/local/share/sophus/cmake/SophusTargets.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
@@ -93,4 +96,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/g2o_pose.dir/DependInfo.cmake"
+  "CMakeFiles/pose_sophus.dir/DependInfo.cmake"
   )
