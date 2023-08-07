@@ -1,0 +1,5 @@
+/home/angelhyc/slambook2/ch11/bag_of_words/build/CMakeFiles/feature_training.dir
+/home/angelhyc/slambook2/ch11/bag_of_words/build/CMakeFiles/loop_closure.dir
+/home/angelhyc/slambook2/ch11/bag_of_words/build/CMakeFiles/gen_vocab.dir
+/home/angelhyc/slambook2/ch11/bag_of_words/build/CMakeFiles/edit_cache.dir
+/home/angelhyc/slambook2/ch11/bag_of_words/build/CMakeFiles/rebuild_cache.dir
