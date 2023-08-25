@@ -7,8 +7,10 @@
 using namespace Sophus;
 using namespace std;
 
-string groundtruth_file = "../groundtruth.txt";
-string estimated_file = "../estimated.txt";
+// string groundtruth_file = "../groundtruth.txt";
+// string estimated_file = "../estimated.txt";
+string groundtruth_file = "../gps.txt";
+string estimated_file = "../e.txt";
 
 typedef vector<Sophus::SE3d, Eigen::aligned_allocator<Sophus::SE3d>> TrajectoryType;
 
@@ -49,7 +51,7 @@ TrajectoryType ReadTrajectory(const string &path) {
     while (!fin.eof()) {
     double time, tx, ty, tz, qx, qy, qz, qw;
     fin >> time >> tx >> ty >> tz >> qx >> qy >> qz >> qw;
-    Sophus::SE3d p1(Eigen::Quaterniond(qx, qy, qz, qw), Eigen::Vector3d(tx, ty, tz
+    Sophus::SE3d p1(Eigen::Quaterniond(qw, qx, qy, qz), Eigen::Vector3d(tx, ty, tz
     ));
     trajectory.push_back(p1);
     }
