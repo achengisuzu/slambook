@@ -79,6 +79,7 @@
         "__nullptr": "cpp",
         "__split_buffer": "cpp",
         "scoped_allocator": "cpp",
-        "core": "cpp"
+        "core": "cpp",
+        "*.ipp": "cpp"
     }
 }
